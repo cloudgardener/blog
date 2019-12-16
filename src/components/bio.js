@@ -54,8 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        <strong>{author}</strong>. Dad of two daughters, husband, indie rock
+        lover, container technology enthusiast, and Cloud Gardener at{" "}
+        <a href={`https://vrgroup.fi/en`}>VR Group</a>, who loves the
+        simplicity. He encourages to break organizational and mental bounds to
+        realize a better future with modern technologies.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

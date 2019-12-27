@@ -1,5 +1,10 @@
 import Typography from "typography"
+import CodePlugin from 'typography-plugin-code'
 import cloudGardenerTheme from "@cloudgardener/typography-theme-cloudgardener"
+
+cloudGardenerTheme.plugins = [
+  new CodePlugin(),
+]
 
 const typography = new Typography(cloudGardenerTheme)
 

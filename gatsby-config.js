@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cloud Gardener`,
     author: `Niko Virtala`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Cloud Gardener Blog. Thoughts about life, the universe and... everything.`,
     siteUrl: `https://cloudgardener.dev/`,
     social: {
       twitter: `nikovirtala`,

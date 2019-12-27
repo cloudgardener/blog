@@ -54,15 +54,12 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author}</strong>. Dad of two daughters, husband, indie rock
-        lover, container technology enthusiast, and Cloud Gardener at{" "}
-        <a href={`https://vrgroup.fi/en`}>VR Group</a>, who loves the
-        simplicity. He encourages to break organizational and mental bounds to
-        realize a better future with modern technologies.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        <strong>{author}</strong> is a modern technology enthusiast, and Cloud
+        Gardener at <a href={`https://vrgroup.fi/en`}>VR Group</a>. He is also
+        the father of two magnificent girls, husband, indie music lover,
+        guitarist, and photographer. He loves simplicity and values a great
+        developer experience. Follow him at{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
       </p>
     </div>
   )

@@ -32,7 +32,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
             marginTop: 0,
           }}
@@ -47,7 +47,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (

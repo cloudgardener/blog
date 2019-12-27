@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cloud Gardener Blog`,
+    title: `Cloud Gardener`,
     author: `Niko Virtala`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://cloudgardener.dev/`,
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cloud Gardener Blog`,
-        short_name: `GatsbyJS`,
+        name: `Cloud Gardener`,
+        short_name: `Cloud Gardener`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

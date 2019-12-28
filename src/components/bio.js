@@ -54,12 +54,12 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+        <strong>{author}</strong> is a modern technology enthusiast, and Cloud
+        Gardener at <a href={`https://vrgroup.fi/en`}>VR Group</a>. He is also
+        the father of two magnificent girls, husband, indie music lover,
+        guitarist, and photographer. He loves simplicity and values a great
+        developer experience. Follow him at{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
       </p>
     </div>
   )

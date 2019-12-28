@@ -32,9 +32,8 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h2
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -48,7 +47,7 @@ class Layout extends React.Component {
           >
             {title}
           </Link>
-        </h3>
+        </h2>
       )
     }
     return (
@@ -63,7 +62,8 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}{" "}
+          <a href="https://nikovirtala.io">Niko Virtala</a>, built with Love and
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

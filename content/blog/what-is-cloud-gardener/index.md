@@ -4,8 +4,6 @@ date: 2019-12-30T15:06:42+02:00
 description: ""
 ---
 
-# What is Cloud Gardener?
-
 You may have a clue as to what I'm trying to present with this title, but do you want to hear the whole story?
 
 > “Rather than construction, programming is more like gardening—it is more organic than concrete.” — The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt and David Thomas

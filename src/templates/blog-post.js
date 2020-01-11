@@ -6,11 +6,15 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+import SocialShare from "../components/share"
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+
+    const postUrl = this.props.data.site.siteMetadata.siteUrl + post.fields.slug
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -39,6 +43,7 @@ class BlogPostTemplate extends React.Component {
             </p>
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <SocialShare url={postUrl} title={post.frontmatter.title} />
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -87,12 +92,16 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

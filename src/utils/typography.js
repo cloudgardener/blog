@@ -1,10 +1,25 @@
 import Typography from "typography"
-import CodePlugin from 'typography-plugin-code'
+import CodePlugin from "typography-plugin-code"
 import cloudGardenerTheme from "@cloudgardener/typography-theme-cloudgardener"
+cloudGardenerTheme.overrideThemeStyles = () => ({
+  a: {
+    color: "var(--textLink)",
+  },
+  "a:hover": {
+    color: "var(--textLinkHover)",
+  },
+  "a.anchor": {
+    boxShadow: "none",
+  },
+  'a.anchor svg[aria-hidden="true"]': {
+    stroke: "var(--textLink)",
+  },
+  hr: {
+    background: "var(--hr)",
+  },
+})
 
-cloudGardenerTheme.plugins = [
-  new CodePlugin(),
-]
+cloudGardenerTheme.plugins = [new CodePlugin()]
 
 const typography = new Typography(cloudGardenerTheme)
 

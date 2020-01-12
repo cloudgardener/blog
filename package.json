@@ -8,7 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@cloudgardener/typography-theme-cloudgardener": "1.1.1",
+    "@cloudgardener/typography-theme-cloudgardener": "1.1.2",
     "gatsby": "^2.18.8",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-feed": "^2.3.23",

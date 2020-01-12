@@ -24,16 +24,18 @@ yarn add react-share react-icons
 
 Then create new React component under `src/components/share.js`:
 
-```js
+```javascript
 /**
- * A component that allows pages to be shared on social media platforms.
- *
+ * A component to share pages to social media platforms.
  */
 
 import React from "react"
 import PropTypes from "prop-types"
 
-import { TwitterShareButton, LinkedinShareButton } from "react-share"
+import {
+  TwitterShareButton,
+  LinkedinShareButton,
+} from "react-share"
 
 import { IconContext } from "react-icons"
 import { FaTwitter, FaLinkedin } from "react-icons/fa"
@@ -83,7 +85,7 @@ To enable this newly created component for blog posts, we need to adjust the pos
 
 Let's start by importing the component:
 
-```js
+```javascript
 import SocialShare from "../components/share"
 ```
 
@@ -91,7 +93,7 @@ Then gather information needed from page data.
 
 The `SocialShare` component currently takes in two properties, `url` and `title`, and to be able to fill those, we need to adjust the `pageQuery` by adding `siteUrl` and `fields { slug }` into it:
 
-```js
+```javascript
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
@@ -119,14 +121,15 @@ export const pageQuery = graphql`
 
 Now we have all the data to define the `postUrl` variable, inside the `render()` block:
 
-```js
-const postUrl = this.props.data.site.siteMetadata.siteUrl + post.fields.slug
+```javascript
+const postUrl =
+  this.props.data.site.siteMetadata.siteUrl + post.fields.slug
 ```
 
 Last but not least we use the `SocialShare` component inside the `return` block, after the post section:
 
-```js
-<SocialShare url={postUrl} title={post.frontmatter.title} />
+```html
+<SocialShare url="{postUrl}" title="{post.frontmatter.title}" />
 ```
 
 The result looks like this:

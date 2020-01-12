@@ -1,17 +1,6 @@
 /* layout.css */
 
 body {
-  --bg: white;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: #00ab6b;
-  --textLinkHover: #038252;
-  --hr: hsla(0, 0%, 0%, 0.2);
-
-  background-color: var(--bg);
-}
-
-body.dark {
   -webkit-font-smoothing: antialiased;
 
   --bg: #333333;
@@ -20,4 +9,6 @@ body.dark {
   --textLink: #ff4aaf;
   --textLinkHover: #e5429d;
   --hr: hsla(0, 0%, 100%, 0.2);
+
+  background-color: var(--bg);
 }

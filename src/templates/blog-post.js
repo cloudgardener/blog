@@ -14,13 +14,16 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
-    const postUrl = this.props.data.site.siteMetadata.siteUrl + post.fields.slug
+    const postUrl =
+      this.props.data.site.siteMetadata.siteUrl + post.fields.slug
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={
+            post.frontmatter.description || post.excerpt
+          }
         />
         <article>
           <header>
@@ -42,8 +45,13 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.date}
             </p>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <SocialShare url={postUrl} title={post.frontmatter.title} />
+          <section
+            dangerouslySetInnerHTML={{ __html: post.html }}
+          />
+          <SocialShare
+            url={postUrl}
+            title={post.frontmatter.title}
+          />
           <hr
             style={{
               marginBottom: rhythm(1),

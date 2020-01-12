@@ -761,10 +761,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@cloudgardener/typography-theme-cloudgardener@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@cloudgardener/typography-theme-cloudgardener/-/typography-theme-cloudgardener-1.1.1.tgz#af45881a6a0a1790a964c1d52fe7e52df48c6ec3"
-  integrity sha512-6O6u1Px6O/xBZYbo3IyYqW29MKZZWSqOyKn2FOPmxW7uNxhOs0CsG7v7SfIePcTgWa6AlN2a/VRlmBvhqfZkVw==
+"@cloudgardener/typography-theme-cloudgardener@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@cloudgardener/typography-theme-cloudgardener/-/typography-theme-cloudgardener-1.1.3.tgz#16457ba176f607299fe042d42d028493c2c7a182"
+  integrity sha512-6oEm1iSmfPPpp7CGLEN8uS4KooBb1vUy7qTgCjBISocoJufqUw/pX7mw/wHwk3oXoilEf3Q2I8jqescQSe/JIg==
   dependencies:
     gray-percentage "^2.0.0"
 

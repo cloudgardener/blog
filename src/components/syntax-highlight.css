@@ -4,22 +4,10 @@
 	Comment: Cloud Gardener Syntax for Prism. Fork of theme by Siamak Mokhtari (https://github.com/siamak/atom-panda-syntax)
 */
 
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
-  font-weight: normal;
-  font-style: normal;
-}
-
 code[class*="language-"],
 pre[class*="language-"] {
   background: #2e2e2e;
   color: #e6e6e6;
-  font-family: "Source Sans Pro", "Fira Code", "Operator Mono",
-    Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
-    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
-    "Courier New", Courier, monospace;
   font-size: 15px;
   direction: ltr;
   text-align: left;

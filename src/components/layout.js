@@ -4,8 +4,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 import "./layout.css"
-
-import CustomThemeToggler from "../components/theme-toggler"
+import "./syntax-highlight.css"
 
 class Layout extends React.Component {
   render() {
@@ -34,7 +33,6 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h1>
-          <CustomThemeToggler />
         </div>
       )
     } else {
@@ -56,7 +54,6 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h2>
-          <CustomThemeToggler />
         </div>
       )
     }
@@ -69,7 +66,8 @@ class Layout extends React.Component {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           backgroundColor: "var(--bg)",
           color: "var(--textNormal)",
-          transition: "color 0.2s ease-out, background 0.2s ease-out",
+          transition:
+            "color 0.2s ease-out, background 0.2s ease-out",
           a: "var(--textLink)",
         }}
       >
@@ -77,7 +75,8 @@ class Layout extends React.Component {
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}{" "}
-          <a href="https://nikovirtala.io">Niko Virtala</a>, built with Love and
+          <a href="https://nikovirtala.io">Niko Virtala</a>, built
+          with Love and
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

@@ -16,7 +16,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 100, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -46,7 +46,7 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
-          minWidth: 50,
+          minWidth: 100,
           borderRadius: `100%`,
         }}
         imgStyle={{
@@ -54,12 +54,15 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author}</strong> is a modern technology enthusiast, and Cloud
-        Gardener at <a href={`https://vrgroup.fi/en`}>VR Group</a>. He is also
-        the father of two magnificent girls, husband, indie music lover,
-        guitarist, and photographer. He loves simplicity and values a great
-        developer experience. Follow him at{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>
+        <strong>{author}</strong> is a modern technology
+        enthusiast, and Cloud Gardener at{" "}
+        <a href={`https://vrgroup.fi/en`}>VR Group</a>. He is also
+        the father of two magnificent girls, husband, indie music
+        lover, guitarist, and photographer. He loves simplicity
+        and values a great developer experience. Follow him at{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>
+          Twitter
+        </a>
       </p>
     </div>
   )

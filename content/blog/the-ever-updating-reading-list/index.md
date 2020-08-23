@@ -22,7 +22,7 @@ The list runs in reverse chronological order; the last item added is found first
 
 ### #5 – Organization Observation
 
-> People tend to resist changes in structure that counteract their chosen method of influence.― John Cutler
+> People tend to resist changes in structure that counteract their chosen method of influence. ― John Cutler
 
 ⟹ https://twitter.com/johncutlefish/status/1296316581153091585?s=20
 

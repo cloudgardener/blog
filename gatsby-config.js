@@ -81,6 +81,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-no-javascript`,
+    // `gatsby-plugin-no-javascript`,
   ],
 }

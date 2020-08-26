@@ -17,11 +17,7 @@ const Bio = () => {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
           fixed(width: 100, height: 100) {
-            base64
-            width
-            height
-            src
-            srcSet
+            ...GatsbyImageSharpFixed
           }
         }
       }

@@ -10,6 +10,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -80,5 +81,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-no-javascript`,
   ],
 }

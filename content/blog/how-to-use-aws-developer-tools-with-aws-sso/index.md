@@ -9,9 +9,9 @@ featured: images/key.jpg
 
 > What I cannot create, I do not understand. ― Richard P. Feynman
 
-As multi-account AWS architectures have become more common, there has also been a need to implement centralized user and access control. The AWS solution to this problem is AWS SSO, which is indeed a neat solution, but ...
+As multi-account AWS architectures have become more common, there has also been a need to implement centralized user and access management. The AWS solution to this problem is AWS SSO, which is indeed a neat solution, but ...
 
-Many popular AWS developer tools like CDK (Cloud Development Kit) and Amplify, do not support it yet, as we can find from the GitHub issues:
+Many popular developer tools, including AWS' own CDK (Cloud Development Kit) and Amplify, do not support it yet, as we can find from the GitHub issues:
 
 - [AWS SSO Named Profiles Support](https://github.com/aws/aws-cdk/issues/5455)
 - [Problem using CLI via AWS SSO](https://github.com/aws-amplify/amplify-cli/issues/4488)

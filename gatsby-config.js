@@ -3,6 +3,7 @@ module.exports = {
     title: `Cloud Gardener`,
     author: `Niko Virtala`,
     description: `Cloud Gardener Blog. Thoughts about life, the universe and... everything.`,
+    keywords: ``,
     siteUrl: `https://cloudgardener.dev/`,
     social: {
       twitter: `nikovirtala`,

@@ -12,6 +12,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
+    const image = post.frontmatter.image
+      ? post.frontmatter.image.childImageSharp.resize
+      : null
     const { previous, next } = this.props.pageContext
 
     const postUrl =
@@ -24,6 +27,8 @@ class BlogPostTemplate extends React.Component {
           description={
             post.frontmatter.description || post.excerpt
           }
+          image={image}
+          pathname={this.props.location.pathname}
         />
         <article>
           <header>
@@ -114,6 +119,15 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        image: featured {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+              height
+              width
+            }
+          }
+        }
       }
     }
   }

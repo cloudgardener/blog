@@ -69,7 +69,7 @@ function SEO({
           content: metaDescription,
         },
         {
-          name: "keywords",
+          name: `keywords`,
           content: site.siteMetadata.keywords.join(","),
         },
         {

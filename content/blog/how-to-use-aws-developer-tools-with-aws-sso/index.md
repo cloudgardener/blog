@@ -5,8 +5,6 @@ description: ""
 featured: images/key.jpg
 ---
 
-![the key](images/key.jpg)
-
 > What I cannot create, I do not understand. ― Richard P. Feynman
 
 As multi-account AWS architectures have become more common, there has also been a need to implement centralized user and access control. The AWS solution to this problem is AWS SSO, which is indeed a neat solution, but ...

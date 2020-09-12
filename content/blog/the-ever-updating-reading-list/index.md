@@ -1,6 +1,6 @@
 ---
 title: "The Ever-updating Reading List"
-date: 2020-08-23T16:40:00+02:00
+date: 2020-09-08T09:31:00+02:00
 description: ""
 ---
 
@@ -13,6 +13,12 @@ The list is one window to my soul landscape, and maybe one day, we can see how m
 The list runs in reverse chronological order; the last item added is found first in the list.
 
 ## The List
+
+### Jeff Bezos Says It Will Always Be "Day 1" at Amazon
+
+> Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death. And that is why it is always Day 1. – Jeff Bezos
+
+⟹ https://www.fool.com/investing/2017/04/13/jeff-bezos-says-it-will-always-be-day-1-at-amazon.aspx
 
 ### If Management Isn’t A Promotion, Then Engineering Isn’t A Demotion
 

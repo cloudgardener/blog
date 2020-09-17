@@ -25,6 +25,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-preact`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

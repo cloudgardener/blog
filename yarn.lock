@@ -1561,23 +1561,23 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@prefresh/core@^0.7.2":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.7.4.tgz#aa61b0049c5d7e78b29db553a465cd7df036aac3"
-  integrity sha512-Qbdjg0xH7svik4ErxMLcJUblEoi1qKt/Je3qsHqLdZjtsU4/BWW6oOtz4COAZK5KirpFS56VjBYMLzi6/ueZqQ==
+"@prefresh/core@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/core/-/core-0.8.1.tgz#d4f15d9e3ee9c16bf420405e2b422774e807a594"
+  integrity sha512-woho+Ja8w3pxnZwq68MnWzH9ffdidrpJsV6PDTNIsJOpsLYmfCNxqxGsxIqYw40d1yjg4h6HFGbb6Y9lhyTPNA==
 
-"@prefresh/utils@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.2.1.tgz#1446082c87f1ef61b0c407f1bd0e79726fb5ab45"
-  integrity sha512-Ju7WHncqUKsaFp7yAFoNSR2jdr0bjqr8AwV06LtpFmwliPe4IDGRcBGhofg+SY9yld3FUF1JWmEoUOfCyCGRhA==
+"@prefresh/utils@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@prefresh/utils/-/utils-0.3.1.tgz#f9e1a5e1fa4bc02989980733950e60520f0f9869"
+  integrity sha512-9kLzPWN4teeiKuc+Rle3SF/hyx5lzo35X4rHr+kQXnJT+BaEb1ymDWIHGkv85xjnw8+l6I1r1H7JB4BHOMJfmg==
 
-"@prefresh/webpack@^0.8.1":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-0.8.2.tgz#e789437189aaded81eaa083455078b39c5f1922a"
-  integrity sha512-c4YsahgvnaOsSu9IW12yixiYfEKbC+DjqVPSezAhN0B5wXtoaTelEY5vmPSY3bFjcFiqnWXA1NJ49WbQ5ozAcw==
+"@prefresh/webpack@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/webpack/-/webpack-1.1.0.tgz#a36fd072ef1d5cd88ced8df89d7ae62bdbddf71b"
+  integrity sha512-a3JG2maH3bacDobb4WywVTuqvAyBxJ7dRNSG2Ywv1AytAdgpgNZKJpR4xUTzPTwPGpRkfNOOf4mODqoOZ7W0Sw==
   dependencies:
-    "@prefresh/core" "^0.7.2"
-    "@prefresh/utils" "^0.2.1"
+    "@prefresh/core" "^0.8.1"
+    "@prefresh/utils" "^0.3.1"
 
 "@reach/alert@0.10.3":
   version "0.10.3"
@@ -6561,13 +6561,12 @@ gatsby-plugin-page-creator@^2.3.27:
     graphql "^14.6.0"
     lodash "^4.17.20"
 
-gatsby-plugin-preact@^4.0.10:
-  version "4.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.0.10.tgz#97a056313c6ff7330eb42f323ebb9df79f1f7fe2"
-  integrity sha512-FMOj4DiPZTy2lLkr2K/cMNkWTYSVsRXFgXGNN45pHZX5SLN4ecl3IVaYjQQ1yVsOwXLvZnyYm5IE8r/pw5D3Uw==
+gatsby-plugin-preact@^4.0.13:
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.0.13.tgz#cb78cec62dd6894c24ae727176bbc7ddaab608fb"
+  integrity sha512-RMTAC6UF8Gp29yFrpAXdt0PKCO6jHqmPRGa3n3cVKR43o9+xxaiVIs+8nhlVGqqhv7p6zS11V2rbt7Fle/fFFQ==
   dependencies:
-    "@prefresh/webpack" "^0.8.1"
-    react-refresh "^0.8.2"
+    "@prefresh/webpack" "^1.1.0"
 
 gatsby-plugin-react-helmet@^3.3.10:
   version "3.3.10"
@@ -12171,11 +12170,6 @@ react-refresh@^0.7.0:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.7.2.tgz#f30978d21eb8cac6e2f2fde056a7d04f6844dd50"
   integrity sha512-u5l7fhAJXecWUJzVxzMRU2Zvw8m4QmDNHlTrT5uo3KBlYBhmChd7syAakBoay1yIiVhx/8Fi7a6v6kQZfsw81Q==
-
-react-refresh@^0.8.2:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
-  integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
 react-remove-scroll-bar@^2.1.0:
   version "2.1.0"

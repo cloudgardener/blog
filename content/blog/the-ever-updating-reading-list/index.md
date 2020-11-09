@@ -1,6 +1,6 @@
 ---
 title: "The Ever-updating Reading List"
-date: 2020-09-08T09:31:00+02:00
+date: 2020-11-09T08:51:00+02:00
 description: ""
 ---
 
@@ -13,6 +13,12 @@ The list is one window to my soul landscape, and maybe one day, we can see how m
 The list runs in reverse chronological order; the last item added is found first in the list.
 
 ## The List
+
+### What Silicon Valley "Gets" about Software Engineers that Traditional Companies Do Not
+
+> As a software engineer, pleasant places to work at is where you are a problem solver, not a factory worker. Which one are you today? – Gergely Orosz
+
+⟹ https://blog.pragmaticengineer.com/what-silicon-valley-gets-right-on-software-engineers/
 
 ### Jeff Bezos Says It Will Always Be "Day 1" at Amazon
 

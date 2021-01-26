@@ -55,11 +55,12 @@ const Bio = () => {
       />
       <p>
         <strong>{author}</strong> is a modern technology
-        enthusiast, and Cloud Gardener at{" "}
-        <a href={`https://vrgroup.fi/en`}>VR Group</a>. He is also
-        the father of two magnificent girls, husband, indie music
-        lover, guitarist, and photographer. He loves simplicity
-        and values a great developer experience. Follow him at{" "}
+        enthusiast, Cloud Gardener, and DevOps Consultant at{" "}
+        <a href={`https://polarsquad.com/`}>Polar Squad</a>. He is
+        also the father of two magnificent girls, husband, indie
+        music lover, guitarist, and photographer. He loves
+        simplicity and values a great developer experience. Follow
+        him at{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
           Twitter
         </a>

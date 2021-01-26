@@ -76,7 +76,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}{" "}
           <a href="https://nikovirtala.io">Niko Virtala</a>, built
-          with Love and
+          with Love {"\u2764"} and
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

@@ -1659,10 +1659,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@prefresh/babel-plugin@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@prefresh/babel-plugin/-/babel-plugin-0.2.2.tgz#b921f0a1350a9daa9106518378a4e5a49211e6f6"
-  integrity sha512-NDPMsDs5QncSdOX7zsATwypf1IWtYvOX23X3t4DOcZsVErRABqdlUTZ2RAf4KfOAIjSZhR9p0Htchqp8rQr14Q==
+"@prefresh/babel-plugin@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@prefresh/babel-plugin/-/babel-plugin-0.3.0.tgz#6e5be66dc120f495bbcc94c5645e68ec10b98674"
+  integrity sha512-4VqFK5r0ySG+crNrLuP2AQUtny1hwJ42Usd1IYvPDOClpS5TeKw9hXwvoZ06BZQehCWyJY4WYJ39hkuvFNiX3g==
 
 "@prefresh/core@^0.8.1":
   version "0.8.1"
@@ -6448,12 +6448,12 @@ gatsby-plugin-page-creator@^2.9.0:
     globby "^11.0.1"
     lodash "^4.17.20"
 
-gatsby-plugin-preact@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.4.0.tgz#5c2c96d302e8af6b161bb1986ae90ad61c40493c"
-  integrity sha512-HkZqirdGwT1nmIHKPoCtaF/wxktNYg0zkuY54PqSql5UDeb665UpoVgXLJVJnK5VW+PP3EX6608bqilodDSwaA==
+gatsby-plugin-preact@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-preact/-/gatsby-plugin-preact-4.6.0.tgz#a3568a24871ef38629a359e603d0b085f0974513"
+  integrity sha512-eBK5W+7KIAjfjYSbtU0/VUlUVXEWPT4VFeRNEBVCrpovv57XTayHH9Qzjm0K2wwVte78+phxiqsoa6trH9rpzA==
   dependencies:
-    "@prefresh/babel-plugin" "^0.2.2"
+    "@prefresh/babel-plugin" "^0.3.0"
     "@prefresh/webpack" "^1.1.0"
 
 gatsby-plugin-react-helmet@^3.7.0:
@@ -6488,10 +6488,10 @@ gatsby-plugin-sharp@^2.11.2:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-sitemap@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.9.0.tgz#3c2b3c31087fe53225b759fd3c858ed0ea522bac"
-  integrity sha512-D/Uw3AZhveK7HIiUBMQ1uUMhCouwzz9U/LtZZOa/OU3A/YiHgVkm9bhir8Fbtv46ojF/IfKjaNyOe5NGF/iCQQ==
+gatsby-plugin-sitemap@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sitemap/-/gatsby-plugin-sitemap-2.11.0.tgz#7e7b22b20c316d1c5087dd7213e629c342231014"
+  integrity sha512-W9LOdRhvYsc4Iq67UpXEe+R9FeITSNNpF+Xr5ej4mAqye76UE5kHkjyFLJBqfuwc1ANSsi6e3TKrdYoRV90P2w==
   dependencies:
     "@babel/runtime" "^7.12.5"
     common-tags "^1.8.0"
@@ -6604,10 +6604,10 @@ gatsby-recipes@^0.8.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-remark-copy-linked-files@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.7.0.tgz#8a7c336881f8a498cf58d295b181341067594e53"
-  integrity sha512-0UWaYmneg1yA+GuDzF5Aoy52TgiXjArGhrP9XB36rooT1m2V1lTSBasTd7n1H4TEcw3PrTJK+taxv51b3Sf+UQ==
+gatsby-remark-copy-linked-files@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.9.0.tgz#8615869d47fef4333898beff465f6dc736457c02"
+  integrity sha512-9DMq2YBvS4G9AChcrt2+Xsfdnxv4bG4g1XRDCmRFafrOc9D7qmdJMIt4BjrEyD85CPMuoaI6IwlhMjHwBLL3XA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     cheerio "^1.0.0-rc.3"
@@ -6615,7 +6615,7 @@ gatsby-remark-copy-linked-files@^2.7.0:
     is-relative-url "^3.0.0"
     lodash "^4.17.20"
     path-is-inside "^1.0.2"
-    probe-image-size "^5.0.0"
+    probe-image-size "^6.0.0"
     unist-util-visit "^1.4.1"
 
 gatsby-remark-images@^3.8.1:
@@ -6644,10 +6644,10 @@ gatsby-remark-prismjs@^3.10.0:
     parse-numeric-range "^0.0.2"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-responsive-iframe@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.8.0.tgz#fd01ea773332506688a3929c7bee7869f70fc92e"
-  integrity sha512-HuNvELvaphxFlQ3vjft+Iq3bSpEc8VW71sKcFMsvVXWVTll1MEAcuXcl3fiw9M+MJn5oLuiI5gqoNGRUjIo0Ww==
+gatsby-remark-responsive-iframe@^2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-responsive-iframe/-/gatsby-remark-responsive-iframe-2.10.0.tgz#f822662613b2c47046f97ded9c000681c61872af"
+  integrity sha512-hxvGZFbOcuVaNZfEl3t6Vf6qFwHOaiQcn8RF/H1DBPyG3EAo7SaXSxCigi8ahitl+l3qobxZTTQOothEYom5Ow==
   dependencies:
     "@babel/runtime" "^7.12.5"
     cheerio "^1.0.0-rc.3"

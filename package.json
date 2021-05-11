@@ -38,7 +38,7 @@
     "react-icons": "^4.2.0",
     "react-share": "^4.4.0",
     "react-typography": "^0.16.20",
-    "typography": "^0.16.19",
+    "typography": "^0.16.21",
     "typography-plugin-code": "^0.16.20"
   },
   "devDependencies": {

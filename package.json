@@ -37,7 +37,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
     "react-share": "^4.4.0",
-    "react-typography": "^0.16.19",
+    "react-typography": "^0.16.20",
     "typography": "^0.16.19",
     "typography-plugin-code": "^0.16.19"
   },
